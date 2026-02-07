@@ -12,7 +12,7 @@ const App = () => {
     
   }
   return (
-    <div>
+    <div className='bg-white p-5'>
 <Layout sayHello= {sayHello} user= {user} />
     </div>
   )
